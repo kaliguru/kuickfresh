@@ -127,7 +127,7 @@ class SignInScreenState extends State<SignInScreen> {
                           child: Padding(
                             padding: ResponsiveHelper.isDesktop(context) ? const EdgeInsets.all(40) : EdgeInsets.zero,
                             child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                              Image.asset(Images.logo, width: 125),
+                              Image.asset(Images.logo, width: 300),
                               // SizedBox(height: Dimensions.PADDING_SIZE_SMALL),
                               // Center(child: Text(AppConstants.APP_NAME, style: robotoMedium.copyWith(fontSize: Dimensions.fontSizeLarge))),
                               const SizedBox(height: Dimensions.paddingSizeExtraLarge),
